@@ -19,10 +19,10 @@ Markov chains, named after Andrey Markov, a stochastic model that depicts a sequ
 ![image](https://user-images.githubusercontent.com/104613195/170175685-c6187523-f268-4a3b-b03d-8bbe62647a57.png)
 
 ## Program
-# Developed by
-# Register Number: 212220230041
-# Name: N Sandhya charu
-
+#### Developed by
+#### Register Number: 212220230041
+#### Name: N Sandhya charu
+```python3
 import numpy as np
 P0=[0.3,0.2,0.5]
 P=[[0,2/3,1/3],[1/2,0,1/2],[1/2,1/2,0]]
@@ -31,7 +31,7 @@ for i in range(1,n+1):
     P0=np.multiply(P0,P)
     print("\nThe %d - step probability distribution is\n"%i)
     print(P0)
-
+```
 ## Output :
 ![image](https://user-images.githubusercontent.com/75235167/170193441-e86403ec-3fd0-4add-9c4b-b6605fcce222.png)
 
