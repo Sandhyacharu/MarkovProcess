@@ -36,3 +36,4 @@ for i in range(1,n+1):
 ![image](https://user-images.githubusercontent.com/75235167/170193441-e86403ec-3fd0-4add-9c4b-b6605fcce222.png)
 
 ## Result : 
+Thus, the n-th step probability distribution matrix of the three state Markov chain was calculated.
